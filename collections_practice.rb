@@ -40,3 +40,6 @@ end
 def find_a(strings_array)
   strings_array.map { |string| string if string.start_with?('a') }.compact
 end
+
+def sum_array(num_array)
+  array.
