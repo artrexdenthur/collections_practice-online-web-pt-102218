@@ -29,3 +29,7 @@ end
 def reverse_array(array)
   array.reverse 
 end
+
+def kesha_maker(strings_array)
+  strings_array.map do |string|
+    
