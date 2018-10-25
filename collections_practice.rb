@@ -42,4 +42,8 @@ def find_a(strings_array)
 end
 
 def sum_array(num_array)
-  array.
+  array.reduce(:+)
+end
+
+def add_s(word_array)
+  
