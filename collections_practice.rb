@@ -42,7 +42,7 @@ def find_a(strings_array)
 end
 
 def sum_array(num_array)
-  array.reduce(:+)
+  num_array.reduce(:+)
 end
 
 def add_s(word_array)
