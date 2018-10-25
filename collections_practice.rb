@@ -37,3 +37,5 @@ def kesha_maker(strings_array)
   end
 end
 
+def find_a(strings_array)
+  strings_array.map { |string| string if string.start_with?('a') }
