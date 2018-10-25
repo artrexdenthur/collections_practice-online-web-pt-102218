@@ -32,4 +32,7 @@ end
 
 def kesha_maker(strings_array)
   strings_array.map do |string|
-    
+    string[2] = '$'
+    string
+  end
+end
