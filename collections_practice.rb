@@ -23,4 +23,5 @@ def swap_elements_from_to(array, from, to)
   elements.push array[to]
   array[to] = elements[0]
   array[from] = elements[1]
+  array
 end
